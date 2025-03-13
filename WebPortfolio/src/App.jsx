@@ -12,11 +12,19 @@ function App() {
     </div>
 
     <main className="flex flex-col items-center px-4 md:px-8 lg:px-16">
-      <Navbar/>
-      <Hero/>
-      <Tech/>
-      <Projects/>
-      <Contact/>
+    <Navbar/>
+    <section id="home">
+    <Hero/>
+    </section>
+    <section id="tech">
+    <Tech/>
+    </section>
+    <section id="projects">
+    <Projects/>
+    </section>
+    <section id="contact">
+    <Contact/>
+    </section>
     </main>
 
     </>
