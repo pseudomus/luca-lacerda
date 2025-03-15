@@ -29,11 +29,11 @@ const Navbar = () => {
             </a>
             
             <a href="#projects" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-black hover:text-transparent font-semibold">
-                <li>Projects</li>
+                <li>Projetos</li>
             </a>
 
             <a href="#contact" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-black hover:text-transparent font-semibold">
-                <li>Contacts</li>
+                <li>Contatos</li>
             </a>
 
         </ul>
@@ -71,11 +71,11 @@ const Navbar = () => {
                     </a>
             
                     <a href="#projects" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-black hover:text-transparent font-semibold">
-                        <li>Projects</li>
+                        <li>Projetos</li>
                     </a>
 
                     <a href="#contact" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-black hover:text-transparent font-semibold">
-                        <li>Contacts</li>
+                        <li>Contatos</li>
                      </a>
 
                 </ul>
