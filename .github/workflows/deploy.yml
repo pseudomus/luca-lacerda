@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - developer
+      - Developer
 
 jobs:
   build:
@@ -46,7 +46,7 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/developer'
+    if: github.ref == 'refs/heads/Developer'
 
     steps:
       - name: Download artifact
