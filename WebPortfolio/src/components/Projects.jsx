@@ -12,7 +12,7 @@ const projectsData = [
     {
         image: handy,
         title: "Handy",
-        description: "É um aplicativo intuitivo que permite registrar e acompanhar suas práticas terapêuticas de forma simples, facilitando o monitoramento do progresso ao longo do tratamento.",
+        description: "É um aplicativo inovador que permite registrar e acompanhar suas práticas de terapia ocupacional de forma simples, facilitando o monitoramento do progresso ao longo do tratamento.",
         tech: ["SwiftUI", "HealthKit", "Combine", "SwiftCharts", "SwiftData", "WidgetKit", "WatchKit"],
         appStoreLink: "https://apps.apple.com/br/app/handy/id6504047887"
     },
@@ -94,7 +94,7 @@ const Projects = () => {
   return (
     <div id="#projects" className="flex min-h-screen w-full flex-col items-center justify-center gap-16 p-4 md:px-14 md:py-24">
         <ScroolReveal>
-        <h1 className="text-4xl font-light text-black md:text6xl">My Projects</h1>
+        <h1 className=" text-4xl font-semi text-black md:text-6xl">Meus Projetos</h1>
         </ScroolReveal>
         <div className="flex w-full max-w-[1000px] flex-col gap-16 text black">
             {
