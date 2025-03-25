@@ -18,7 +18,7 @@ const projectsData = [
     },
     {
         image: cade,
-        title: "Cadê Cadê",
+        title: "Cadê Cadê", 
         description: "Com um toque de competitividade, o jogo testa seu conhecimento sobre onde estão as coisas no seu lar — e quem encontrar mais objetos vence!",
         tech: ["UIKit", "SwiftUI", "CoreML", "SharePlay", "XCTest", "AVFoundation", "UserDefaults", "Combine"],
         appStoreLink: "https://apps.apple.com/br/app/cad%C3%AA-cad%C3%AA/id6482848973"
